@@ -1,0 +1,18 @@
+.odd {
+    background-color: rgb(241, 178, 178);
+    font-family: Verdana, sans-serif;
+}
+.special {
+    font-size: 24px;
+}
+
+#first {
+    color: #0808f0;
+    font-size: 36px;
+}
+
+#second {
+    background-color: hsl(120, 56%, 68%);
+    font-size: 24px;
+    font-weight: bold;
+}
