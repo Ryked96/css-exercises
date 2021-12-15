@@ -1,0 +1,19 @@
+.container .text {
+    background-color: yellow;
+    color: red;
+    font-size: 20px;
+    text-align: center;
+}
+
+/* The other way to select and properly style the requested text using type selectors: 
+div p { 
+    CSS STUFF 
+}
+
+And how you do it using a type AND a class selector:
+.container p { 
+    CSS STUFF 
+}
+
+*/
+ 
