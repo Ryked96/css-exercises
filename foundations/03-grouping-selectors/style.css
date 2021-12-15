@@ -1,0 +1,14 @@
+.main,
+.extra {
+    font-family: Helvetica, "Times New Roman", sans-serif;
+    font-size: 28px;
+}
+
+.main {
+    background-color: rgb(12, 8, 8);
+    color: white;
+}
+
+.extra{
+    background-color: rgb(238, 241, 12);
+}
