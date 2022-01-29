@@ -18,10 +18,10 @@
 ul {
   /* this removes the dots on the list items*/
   list-style-type: none;
-  justify-content: space-between;
   display: flex;
-  padding: 10px;
-  margin: 20px;
+  padding: 0px;
+  margin: 0px;
+  gap: 18px;
 }
 
 
@@ -31,6 +31,5 @@ a {
   padding: 8px;
   /* this removes the line under the links */
   text-decoration: none;
-  margin: 10px;
   
 }
