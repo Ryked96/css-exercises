@@ -40,13 +40,16 @@ body {
 }
 .header {
   display: flex;
-  align-items: space-evenly;
-  justify-content: flex-start;
-
-
+  align-items: center;
+  justify-content: space-between;
+  font-size: 18px;
+  font-weight: 1000;
+  margin-bottom: 8px;
 }
 
-
+.text {
+  margin-bottom: 20px;
+}
 
 .close-button {
   background: #eee;
@@ -77,4 +80,9 @@ button.cancel {
   background: white;
   border: 1px solid #ddd;
   color: royalblue;
+}
+
+.test {
+  width: 400px;
+  display: flex;
 }
