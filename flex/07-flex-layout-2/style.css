@@ -7,12 +7,22 @@ body {
 }
 
 .header {
+  display: flex;
+  align-content: center;
+  flex: 0;
   height: 72px;
+  font-size: 32px;
+  font-weight: 900;
   background: darkmagenta;
   color: white;
+  padding: 16px;
 }
 
 .footer {
+  display: flex;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
   height: 72px;
   background: #eee;
   color: darkmagenta;
@@ -47,15 +57,16 @@ ul {
 
 .cards {
   display: flex;
+  flex-wrap: wrap;
   flex: 1;
   padding: 32px;
   width: 200px;
 }
 
 .card {
-  display: flex;
-  flex-direction: column;
   flex: 1;
-  flex-wrap: wrap;
-  padding: 26px;
+  margin: 16px;
+  padding: 16px;
 }
+
+
