@@ -31,12 +31,30 @@ body {
 .sidebar {
   width: 300px;
   background: royalblue;
+  padding: 16px;
+}
+
+.sidebar a {
+  font-size: 24px;
+  color: white;
+  text-decoration: none;
 }
 
 .card {
   border: 1px solid #eee;
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
+  flex: 1;
+  margin: 16px;
+  padding: 16px;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  flex: 1;
+  padding: 32px;
+  width: 200px;
 }
 
 ul {
@@ -55,18 +73,10 @@ ul {
   padding: 16px;
 }
 
-.cards {
-  display: flex;
-  flex-wrap: wrap;
-  flex: 1;
-  padding: 32px;
-  width: 200px;
-}
+
 
 .card {
-  flex: 1;
-  margin: 16px;
-  padding: 16px;
+  
 }
 
 
