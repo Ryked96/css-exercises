@@ -50,6 +50,8 @@ body {
   margin: 16px;
   padding: 16px;
   width: 300px;
+  /* flex: 1 1 auto;  (Another way to do this) */
+  /* If you use flex with a basis of auto, the width: 300px would also work in this scenario, since the cards would be starting from their given height.*/
 }
 
 .cards {
