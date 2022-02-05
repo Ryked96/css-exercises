@@ -31,6 +31,9 @@ body {
 .sidebar {
   width: 300px;
   background: royalblue;
+  display: flex;
+  width: 300px;
+  flex-shrink: 0;
   padding: 16px;
 }
 
@@ -66,9 +69,3 @@ ul {
   flex: 1;
 }
 
-.sidebar {
-  display: flex;
-  width: 300px;
-  flex-shrink: 0;
-  padding: 16px;
-}
